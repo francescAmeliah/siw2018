@@ -3,8 +3,20 @@
 	font-family: Consolas, monaco, monospace;
 }
 
-H1 {
+h1{
+	text-shadow: 3px 1px black;
+}
+
+#title{
+	text-shadow: 2px 1px black;
+}
+
+h1 {
 	color: red;
+}
+
+h1+h2{
+	text-decoration: underline;
 }
 
 UL>LI {
@@ -69,7 +81,44 @@ li.list{
 	color: red;
 }
 
+.link{
+	color: black;
+	font-weight: bold;
+}
+
 section{
 	font:25px;
 	color: black;
 }
+
+caption {
+	font-weight: bold;
+	font-size: 120%;
+}
+
+table {
+    /*margin-left: 500px;
+    margin-top: 10px;*/
+    text-align: center;
+     margin: 0 auto;
+    
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+.moduloRegistrazione{
+	border: 2px solid black;
+	width: 40%;
+}
+
+.moduloRegistrazione .campo{
+	margin-top: 20px;
+}
+
+.moduloRegistrazione .valore{
+	position: absolute;
+	left: 300px;
+}
+
+
