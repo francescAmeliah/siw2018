@@ -1,0 +1,81 @@
+<html>
+<head lang="it">
+<title>Gestione Segreteria Studenti</title>
+<meta charset="utf-8">
+</head>
+<font face="Consolas" color="black" size = "4">
+<body>
+	<header>
+		<h1>Iscrivi un nuovo Studente</h1>
+		<h2>Compila i seguente form per registrare un nuovo studente</h2>
+	</header>
+
+	<form method="get" action="confermaIscrizione.php">
+		<table>
+			<tr>
+				<section>
+					<td><strong>Matricola:</strong></td>
+					<td><input name="matricola" type="text" /></td>
+				</section>
+			</tr>
+			<tr>
+				<section>
+					<td><strong>Nome:</strong></td>
+					<td><input name="nome" type="text" /></td>
+				</section>
+			</tr>
+			<tr>
+				<section>
+					<td><strong>Cognome:</strong></td>
+					<td><input name="cognome" type="text" /></td>
+				</section>
+			</tr>
+			<tr>
+				<section>
+					<td><strong>Data di Nascita:</strong></td>
+					<td><input name="dataNascita" type="date" /></td>
+				</section>
+			</tr>
+			<tr>
+				<section>
+					<td><strong>Crea password:</strong></td>
+					<td><input name="password" type="password" /></td>
+				</section>
+			</tr>
+			<tr>
+				<section>
+					<td><strong>Conferm password:</strong></td>
+					<td><input name="confermaPassword" type="password" /></td>
+				</section>
+			</tr>
+			<tr>
+				<section>
+					<td><strong>Indirizzo:</strong></td>
+					<td><select name="indirimzo">
+							<optgroup label="Intelligenza Artificiale">
+								<option value="rob">Robotica</option>
+								<option value="logic">Logica Computazionale</option>
+							</optgroup>
+							<optgroup label="Storia">
+								<option value="arch">Archeologia</option>
+							</optgroup>
+					</select></td>
+				</section>
+			</tr>
+			<tr>
+				<section>
+					<td><input name="validaDati" type="button" value="Valida Dati" /></td>
+				</section>
+			</tr>
+			<tr>
+				<section>
+					<td><input name="inviaDati" type="submit" value="Invia Dati" /></td>
+				</section>
+			</tr>
+		</table>
+	</form>
+
+
+</body>
+</font>
+</html>
