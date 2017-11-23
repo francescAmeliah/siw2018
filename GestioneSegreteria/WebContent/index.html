@@ -4,26 +4,52 @@
 <meta charset="UTF-8">
 <title>Gestione Segreteria Studenti</title>
 
-<LINK rel = "stylesheet" href = "CSS/style.css" type="text/css">
+
 <style type = "style/css"> 
-	
 </style>
+
+<script src = "js/jquery-3.2.1.min.js" ></script>
+<script src = "bootstrap-3.3.7-dist/js/bootstrap.min.js" ></script>
+<LINK rel = "stylesheet" href = "bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css">
+
+<LINK rel = "stylesheet" href = "CSS/style.css" type="text/css">
+
 </head>
 <!--  <font face="Consolas" color="black" size = "4">-->
 <body>
-	<header>
+	<!-- 
+		<header class="row">
+		<div align = "center">
+			<figure class = "col-sm-2 col-md-3 col-lg-3">
+				<a href="images/logo.jpg">
+				<img class = "img-thumbnail img-circle" src="images/logo.jpg"
+					alt="Segreteria Studenti" /></a>
+			</figure>
+			<hgroup class = "col-sm-8 col-md-3 col-lg-7">
+				<h1>Segreteria Studenti - UNICAL</h1>
+				<h2>Portale per la gestione degli studenti dell'Unical</h2>
+			</hgroup>
+			
+		</div>
+		</header>
+	-->
+
+	<header class="row">
 		<div align = "center">
 			<hgroup>
 				<h1>Segreteria Studenti - UNICAL</h1>
 				<h2>Portale per la gestione degli studenti dell'Unical</h2>
 			</hgroup>
+			
 			<figure>
-				<a href="images/logo.jpg"><img src="images/logo.jpg"
-					alt="Segreteria Studenti" width="500" /></a>
-				<figcaption></figcaption>
+				<a href="images/logo.jpg">
+				<img class = "img-thumbnail img-circle" src="images/logo.jpg"
+					alt="Segreteria Studenti" /></a>
 			</figure>
+			
 		</div>
 	</header>
+	
 	<p align = "center">
 		Benvenuti nel portale della Segreteria Studenti <br>
 		Qui di seguito potrai trovare tutte le funzionalità previste dal portale.<br>
@@ -31,7 +57,8 @@
 		<a href="http://www.unical.it" class="link"> clicca qui</a> 
 	</p>
 	
-	<nav role = "navigation">
+	<!--<nav role = "navigation" class = "navbar navbar-inverse">  -->
+	<nav role = "navigation" >
 		<ul>
 			<li class="list">
 				<a href="javascript:void(0)" class="dropbtn">Studenti</a>

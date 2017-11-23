@@ -92,8 +92,10 @@ section{
 }
 
 caption {
+	text-align: center;
 	font-weight: bold;
 	font-size: 120%;
+	color: black;
 }
 
 table {
@@ -103,24 +105,34 @@ table {
      margin: 0 auto;
     
 }
+
 table, th, td {
     border: 1px solid black;
 }
 
-.moduloRegistrazione{
-	border: 2px solid black;
-	width: 40%;
+table, tr th {
+    text-align: center;
 }
 
-.moduloRegistrazione .campo{
-	margin-top: 20px;
-}
-
-.moduloRegistrazione .valore{
+.contorno{
+	text-align:center;
 	position: absolute;
-	left: 300px;
+    left: 25%;
+	width: 50%;
+	height: 100%;
+    border: 4px solid black;
+    padding: 290px;
+    margin: 10px;
+	background-color: rgb(240, 240, 240);
 }
 
 .titlePage{
 	text-align: center;
+}
+
+.moduloRegistrazione form {
+    display:inline-block;
+  	position: absolute;
+    top: 5%;
+    left: 25%;
 }
